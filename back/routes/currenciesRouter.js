@@ -5,14 +5,14 @@ var request = require('request');
 
 
 
-//   cron.schedule('*/20 * * * * *', () => {
-//     console.log('running a task every 20 seconds');
+
+//   cron.schedule('*/80 * * * * *', () => {
+//     console.log('running a task every 80 seconds');
  
 //     request.get('http://data.fixer.io/api/latest?access_key=f9877da0df5dc0b59ae2f8143f254485&format=1',async function(error, response, body) {
         
 //         if (!error && response.statusCode == 200) {
-//             // console.log(body) // Show the HTML for the Google homepage.
-           
+//             // console.log(body) // Show the HTML for the Google homepage.           
 //         }
 //         var params ={currency:body}
 //        let insertData = await currencyModel.insert(params).return();   
@@ -25,8 +25,6 @@ var request = require('request');
           
    
 //     })
- 
-
 // });
 
 
